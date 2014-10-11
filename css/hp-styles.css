@@ -1,0 +1,45 @@
+/*  Homepage Logo  */
+
+.hp-logo {
+    position:relative;
+    text-align:center;
+    /*float: left;*/
+    margin: auto;
+    clear:both;
+}
+
+.hp-logo img {
+
+	max-width:250px;
+}
+
+
+
+.hp-title {
+    left: 0;
+    position:absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.hp-title h1{
+
+    font-family: 'Homemade Apple', cursive;
+
+}
+
+
+#hp-slogan {
+	text-align: center;
+	margin:auto;
+}
+
+
+
+#hp-featured-content {
+    background:#ffd6d0;
+    background-image: url(../img/square_bg.png);
+    padding:25px;
+}
+
+

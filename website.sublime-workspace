@@ -1,0 +1,480 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"e",
+				"EXPONENT_INPUT"
+			],
+			[
+				"BASE",
+				"BASE_INPUT"
+			],
+			[
+				"E",
+				"EXPONENT_INPUT"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<!DOCTYPE html>\n<html <?php language_attributes(); ?>>\n    <head>\n        <meta charset=\"<?php bloginfo( 'charset' ); ?>\" />\n        <title><?php wp_title(); ?></title>\n        <link rel=\"profile\" href=\"http://gmpg.org/xfn/11\" />\n\n        <?php //STYLESHEETS // ?>\n        <link rel=\"stylesheet\" href=\"<?php echo get_stylesheet_directory_uri() . '/css/foundation.min.css'; ?>\" type=\"text/css\" media=\"screen\" />\n        <link rel=\"stylesheet\" href=\"<?php echo get_stylesheet_uri(); ?>\" type=\"text/css\" media=\"screen\" />\n\n\n\n\n\n        <link rel=\"pingback\" href=\"<?php bloginfo( 'pingback_url' ); ?>\" />\n        <?php if ( is_singular() && get_option( 'thread_comments' ) ) wp_enqueue_script( 'comment-reply' ); ?>\n\n        <?php // Include Foundation JS //\n        	wp_enqueue_script(\n        			'foundation',\n        			get_template_directory_uri() . '/js/foundation.min.js',\n        			array( 'jquery' )\n        			);\n        ?>\n\n        <script>\n            $(document).foundation();\n        </script>\n\n\n\n        <?php wp_head(); ?>\n    </head>\n    <body>\n        <div id=\"wrapper\">",
+			"file": "header.php",
+			"file_size": 1082,
+			"file_write_time": 1406738263000000,
+			"settings":
+			{
+				"buffer_size": 1082,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "home.php",
+			"settings":
+			{
+				"buffer_size": 2500,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "recipes.php",
+			"settings":
+			{
+				"buffer_size": 1258,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/masthead.php",
+			"settings":
+			{
+				"buffer_size": 391,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "<?php\n/*\nTemplate Name: Content with Sidebar\n*/\n?>\n\n<?php get_header(); ?>\n\n<?php\n	if (have_posts()) :\n   		while (have_posts()) :\n      		the_post();\n   		endwhile;\n	endif;\n?>\n\n\n\n<?php get_template_part( 'partials/primary-navigation' ); ?>\n<?php get_template_part( 'partials/masthead' ); ?>\n\n\n\n<section id=\"slogan\">\n	<div class=\"row\">\n		<div class=\"large-12 small-12 columns text-center\" id=\"slogan-container\"><h2><?php the_excerpt(); ?></h2></div>\n    </div>\n</section>\n\n\n<section id=\"content\">\n	<div class=\"row\">\n		<div class=\"large-4 small-12 columns\">\n			<ul>\n  <?php\n  global $id;\n  wp_list_pages(\"title_li=&child_of=$id&show_date=modified\n  &date_format=$date_format\"); ?>\n</ul>\n		</div>\n		<div class=\"large-8 small-12 columns\">\n			<?php the_content(); ?>\n\n		</div>\n	</div>\n</section>\n\n\n\n\n<?php get_footer(); ?>",
+			"file": "index-sidebar.php",
+			"file_size": 818,
+			"file_write_time": 1407258296000000,
+			"settings":
+			{
+				"buffer_size": 818,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "partials/primary-navigation.php",
+			"settings":
+			{
+				"buffer_size": 649,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions.php",
+			"settings":
+			{
+				"buffer_size": 2310,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "functions/menus.php",
+			"settings":
+			{
+				"buffer_size": 3775,
+				"line_ending": "Unix",
+				"name": "/*"
+			}
+		},
+		{
+			"file": "functions/widgets.php",
+			"settings":
+			{
+				"buffer_size": 742,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/wp-content/themes/withlovedc/footer.php",
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/wp-content/themes/withlovedc/widgets/widget-hp-calendar.php",
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/wp-content/themes/withlovedc/widgets/hp-calendar.php",
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/static.html",
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/wp-content/themes/withlovedc/static.html",
+		"/Users/bobak/Dropbox/dev/MAMP/htdocs/withlovedc-localdb-air/wp-content/themes/withlovedc/home.php",
+		"/Applications/MAMP/htdocs/events-test/vendor/autoload.php",
+		"/Applications/MAMP/htdocs/facebook-event-to-website/index.php",
+		"/Users/bobak/sites/withlove/feedtest.html",
+		"/Users/bobak/dev/BJC - Summer 2014/Exponentiation.py",
+		"/Users/bobak/Dropbox/dev/ProjectEuler/numbers.py"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "header.php",
+					"settings":
+					{
+						"buffer_size": 1082,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								818,
+								848
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "home.php",
+					"settings":
+					{
+						"buffer_size": 2500,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								25,
+								879
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "recipes.php",
+					"settings":
+					{
+						"buffer_size": 1258,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								996,
+								996
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "partials/masthead.php",
+					"settings":
+					{
+						"buffer_size": 391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								263,
+								322
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "index-sidebar.php",
+					"settings":
+					{
+						"buffer_size": 818,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								50,
+								50
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 66.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "partials/primary-navigation.php",
+					"settings":
+					{
+						"buffer_size": 649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								649,
+								649
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "functions.php",
+					"settings":
+					{
+						"buffer_size": 2310,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								266,
+								266
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "functions/menus.php",
+					"settings":
+					{
+						"buffer_size": 3775,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2263,
+								2263
+							]
+						],
+						"settings":
+						{
+							"auto_name": "/*",
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 8.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "functions/widgets.php",
+					"settings":
+					{
+						"buffer_size": 742,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								675,
+								675
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,59 @@
+/* Structure */
+
+
+#wrapper {
+
+}
+
+
+
+nav {
+	
+}
+
+
+section:not(.top-bar-section) {
+ margin-top: 10px;
+ margin-bottom:20px;
+ padding:10px;
+}
+
+footer {
+    background:black;
+    margin:0;
+    margin-top:2em;
+}
+
+
+
+
+#hero-image { 
+   position: relative; 
+   width: 100%; /* for IE 6 */
+   min-height:250px;
+   max-height:250px;
+   overflow:hidden;
+
+}
+
+#hero-image img {
+	min-width:100%;
+
+}
+
+
+
+
+#hero-image h1 { 
+
+   color: #fefefe;
+   position:absolute;
+     top: 50%;
+   left: 0; 
+   width: 100%;
+        background: rgb(0, 0, 0); /* fallback color */
+   background: rgba(0, 0, 0, 0.7);
+
+
+}
+

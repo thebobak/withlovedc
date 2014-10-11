@@ -1,0 +1,20 @@
+/*  Utility Classes  */
+
+.no-margin {
+	margin:0;
+}
+
+.shadow-border {
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    -moz-box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+    box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.3);
+}
+
+
+
+img.blur {
+	filter: url(#blur);
+	filter: blur(30px);
+	filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='3');
+	transition: 1s filter linear;
+}

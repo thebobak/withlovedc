@@ -1,0 +1,47 @@
+  nav#hp-menu {
+    text-align: center;
+  }
+
+  nav#hp-menu > ul {
+
+    display:inline-block;
+    text-align: center;
+      list-style:none;
+      margin:auto;
+  } 
+
+  nav#hp-menu >ul li {
+      width:175px;
+      height:175px;
+      -moz-border-radius:50%;
+      -webkit-border-radius:50%;
+      border-radius:50%;
+      overflow:hidden;
+      display:table;
+      font-family: 'Homemade Apple', cursive;
+      font-size:1.8em;
+      font-weight:bold;
+      float:left;
+      margin:20px;
+      padding:5px;
+
+  }
+
+    nav#hp-menu > ul li:hover {
+    opacity:.8;
+  }
+
+  nav#hp-menu > ul li > a {
+    display: table-cell; 
+      vertical-align: middle; 
+      text-align: center;
+      color:#222;
+      text-shadow:1px 2px 3px rgba(0,0,0,0.3);
+  }
+
+
+
+  nav#hp-menu > ul li > a:hover {
+    color:#fff;
+    opacity:.8;
+  }

@@ -14,10 +14,10 @@
 
 					);
 			?>
-  			<li><img src="<?php echo get_template_directory_uri() . $etsy[0];?>" class="th"></li>
-  			<li><img src="<?php echo get_template_directory_uri() . $etsy[1];?>" class="th"></li>
-  			<li><img src="<?php echo get_template_directory_uri() . $etsy[2];?>" class="th"></li>
-  			<li><img src="<?php echo get_template_directory_uri() . $etsy[3];?>" class="th"></li>
-  			<li><img src="<?php echo get_template_directory_uri() . $etsy[4];?>" class="th"></li>
+  			<li><a href="https://www.etsy.com/shop/SpreadTheLoveDC?ref=ss_profile" target="_BLANK"><img src="<?php echo get_template_directory_uri() . $etsy[0];?>" class="th"></a></li>
+  			<li><a href="https://www.etsy.com/shop/SpreadTheLoveDC?ref=ss_profile" target="_BLANK"><img src="<?php echo get_template_directory_uri() . $etsy[1];?>" class="th"></a></li>
+  			<li><a href="https://www.etsy.com/shop/SpreadTheLoveDC?ref=ss_profile" target="_BLANK"><img src="<?php echo get_template_directory_uri() . $etsy[2];?>" class="th"></a></li>
+  			<li><a href="https://www.etsy.com/shop/SpreadTheLoveDC?ref=ss_profile" target="_BLANK"><img src="<?php echo get_template_directory_uri() . $etsy[3];?>" class="th"></a></li>
+  			<li><a href="https://www.etsy.com/shop/SpreadTheLoveDC?ref=ss_profile" target="_BLANK"><img src="<?php echo get_template_directory_uri() . $etsy[4];?>" class="th"></a></li>
 </ul>
 </div>
